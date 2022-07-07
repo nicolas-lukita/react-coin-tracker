@@ -6,14 +6,12 @@ import {
 	MoneyCollectOutlined,
 	BulbOutlined,
 } from "@ant-design/icons";
-import icon from "../images/cryptocurrency.png";
 
 const Navbar = () => {
 	return (
 		<>
 			<div className="layout-header">
 				<div className="logo-container">
-					<Avatar src={icon} size="large"></Avatar>
 					<Typography.Title level={2} className="logo">
 						<Link to="/"> Coin Tracker </Link>
 					</Typography.Title>
